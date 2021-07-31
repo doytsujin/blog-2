@@ -15,7 +15,7 @@ executionEnvironments = [{ root = "src" }]
 
 [tool.poetry]
 name = "blog"
-version = "2.0.0"
+version = "2021.7.31.pre2"
 description = "AXGK blog"
 authors = ["Gunther Klessinger <gk@axiros.de>"]
 license = "BSD 2-Clause Simplified License"
