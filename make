@@ -74,9 +74,24 @@ function docs_serve {
     sh doc pp --lpem=true --lpe=md
 }
 
+function release {
+    local v="${1:-}"
+    local M="$(date "+%m" | sed -e 's/0//g')"
+    test -z "${1:-}" && v="$(date "+%Y.$M.%d")"
+    echo "New Version = $v"
+    poetry version "$v"
+    git add pyproject.toml -f CHANGELOG.md
+    git commit -m "chore: Prepare release $v"
+    git tag "$v"
+    git push
+    git push --tags
+    mkdocs gh-deploy
+}
+
 ## Function Aliases:
 ds() { docs_serve "$@"; }
 t() { tests "$@"; }
+rel() { release "$@"; }
 
 main() {
     test -z "$1" && exit_help

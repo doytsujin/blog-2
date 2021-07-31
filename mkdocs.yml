@@ -1,8 +1,8 @@
-site_name: "mdv"
-site_description: "Terminal Markdown & HTML Viewer"
-site_url: "https://github.com/AXGKl/terminal_markdown_viewer"
-repo_url: "https://github.com/AXGKl/terminal_markdown_viewer"
-repo_name: "axiros/terminal_markdown_viewer"
+site_name: "AXGK Blog"
+site_description: "Random Thoughts"
+site_url: "https://AXGKl.github.io/blog/"
+repo_url: "https://github.com/AXGKl/blog"
+repo_name: "AXGKl/blog"
 
 
 
@@ -12,17 +12,11 @@ copyright: |
 #
 nav:
   - Overview: index.md
-  - Usage:
-    - Styling: usage/css.md
-    - Colors: usage/colors.md
-    - Terminal Control Sequences Primer: usage/ansi.md
-  - Contributing: dev/index.md
-  - Version 1:
-    - Readme: v1/index.md
+  - Containers:
+    - Terraform: oci/index.md
   - About:
     - Changelog: about/changelog.md
     - Credits: about/credits.md
-    - Todo: about/todo.md
 
 theme:
   features:
