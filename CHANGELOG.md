@@ -1,7 +1,7 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT DIRECTLY EDIT!
 
 Direct edits will be gone after next CI build.
-By: gk@axgk (Sat Jul 31 18:17:40 2021)
+By: gk@axgk (Sat Jul 31 18:20:31 2021)
 Command Line (see duties.py):
 
     /home/gk/miniconda3/envs/mdv_py37/bin/doc pre_process \
@@ -24,6 +24,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [2021.7.31](https://github.com/AXGKl/blog/releases/tag/2021.7.31)
+<small>[Compare with 2021.7.31.pre5](https://github.com/AXGKl/blog/compare/2021.7.31.pre5...2021.7.31)</small>
+
+### Bug Fixes
+- Index -> readme ([5551664](https://github.com/AXGKl/blog/commit/5551664b453880b37ff1831b3de5d66602b3e05e) by Gunther Klessinger).
+
+
+## [2021.7.31.pre5](https://github.com/AXGKl/blog/releases/tag/2021.7.31.pre5)
+<small>[Compare with 2021.7.31.pre4](https://github.com/AXGKl/blog/compare/2021.7.31.pre4...2021.7.31.pre5)</small>
+
 
 ## [2021.7.31.pre4](https://github.com/AXGKl/blog/releases/tag/2021.7.31.pre4)
 <small>[Compare with 2021.7.31.pre3](https://github.com/AXGKl/blog/compare/2021.7.31.pre3...2021.7.31.pre4)</small>
