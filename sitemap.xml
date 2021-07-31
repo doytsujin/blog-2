@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/AXGKl/blog/about/changelog/</loc>
+         <loc>https://AXGKl.github.io/blog/</loc>
          <lastmod>2021-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/AXGKl/blog/about/credits/</loc>
+         <loc>https://AXGKl.github.io/blog/about/changelog/</loc>
          <lastmod>2021-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/AXGKl/blog/autodocs/</loc>
+         <loc>https://AXGKl.github.io/blog/about/credits/</loc>
          <lastmod>2021-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/AXGKl/blog/oci/terraform/</loc>
+         <loc>https://AXGKl.github.io/blog/autodocs/</loc>
+         <lastmod>2021-07-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://AXGKl.github.io/blog/oci/terraform/</loc>
          <lastmod>2021-07-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
