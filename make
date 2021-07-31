@@ -31,8 +31,8 @@ $(aliases)
 "
 
 sh() {
-    echo -e "Running: \x1b[32m$*\x1b[0m"
-    eval "$@"
+    echo -e "\x1b[48;5;124mRunning: \x1b[32m$*                                   \x1b[0m"
+    "$@"
 }
 
 exit_help() {
@@ -79,13 +79,14 @@ function release {
     local M="$(date "+%m" | sed -e 's/0//g')"
     test -z "${1:-}" && v="$(date "+%Y.$M.%d")"
     echo "New Version = $v"
-    poetry version "$v"
-    git add pyproject.toml -f CHANGELOG.md
-    git commit -m "chore: Prepare release $v"
-    git tag "$v"
-    git push
-    git push --tags
-    mkdocs gh-deploy
+    sh poetry version "$v"
+    sh docs
+    sh git add pyproject.toml -f CHANGELOG.md
+    sh git commit -am "chore: Prepare release $v"
+    sh git tag "$v"
+    sh git push
+    sh git push --tags
+    sh mkdocs gh-deploy
 }
 
 ## Function Aliases:
