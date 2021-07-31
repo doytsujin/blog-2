@@ -13,7 +13,7 @@ copyright: |
 nav:
   - Overview: index.md
   - Containers:
-    - Terraform: oci/index.md
+    - Terraform: oci/terraform/index.md
   - About:
     - Changelog: about/changelog.md
     - Credits: about/credits.md
